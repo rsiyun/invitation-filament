@@ -1,0 +1,37 @@
+{
+  "TamuUndangan": [
+    {
+      "id": "siyun",
+      "NamaTamu": "Siyun Sekeluarga"
+    },
+    {
+      "id": "kartolo",
+      "NamaTamu": "Kartolo Sekeluarga"
+    },
+    {
+      "id": "sugianto",
+      "NamaTamu": "Sugiatno Sekeluarga"
+    },
+    {
+      "id": "aminah",
+      "NamaTamu": "Aminah Sekeluarga"
+    }
+  ],
+  "PerkataUcapan": [
+    {
+      "id": 1,
+      "Tamu": "Siyun Sekeluarga",
+      "Ucapan": "Fifiii mohon maaf aku gabisa dtg :’) tapi semoga km memiliki pernikahan yang bahagia sama pasanganmu. Dilancarkan rejekinya. All the best for u sisss❤❤"
+    },
+    {
+      "Tamu": "Sugiatno Sekeluarga",
+      "Ucapan": "tak doakan sukses selalu ya mbak fifi dan mas fafa ",
+      "id": 2
+    },
+    {
+      "Tamu": "Sugiatno Sekeluarga",
+      "Ucapan": "kamu suka ",
+      "id": 3
+    }
+  ]
+}

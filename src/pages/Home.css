@@ -1,0 +1,76 @@
+.container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+.container a {
+  text-decoration: none;
+}
+#home {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.52) 0%,
+      rgba(0, 0, 0, 0.52) 100%
+    ),
+    url("../assets/img/header.jpg");
+}
+#mempelai {
+  background-image: url("../assets/img/flowers-top-left.png"),
+    url("../assets/img/flowers-bottom-right.png"),
+    url("../assets/img/section-1-texture.png");
+  background-position: left top, right bottom, center center;
+  background-size: 8rem, 6rem, cover;
+}
+#acara {
+  background-color: #fcf8f2;
+  background-image: url("../assets/img/section-3-texture.png");
+}
+#ucapan {
+  background-color: #fcf8f2;
+  background-image: url("../assets/img/section-3-texture.png");
+}
+#galeri {
+  background-color: #fcf8f2;
+  background-image: url("../assets/img/section-2.jpg");
+}
+.img-wrapper-spouse {
+  width: 8rem;
+  height: 8rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.img-wrapper-spouse::after {
+  content: "";
+  display: block;
+  width: 8.7rem;
+  height: 8.7rem;
+  position: absolute;
+  top: -0.5em;
+  left: -0.6em;
+  background-image: url("../assets/img/bingkai.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+ion-button {
+  text-transform: none;
+}
